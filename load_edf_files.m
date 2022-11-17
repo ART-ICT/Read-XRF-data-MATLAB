@@ -6,7 +6,7 @@ function data_cube=load_edf_files(Size, Dim_1, Dim_2)
 % A function used to read '*.edf' files created by 'DataMuncher' software.
 
 % Once calling the function, a dialog box will pop up to select the '*.edf'
-% files, which allows both single and multiple file selection.
+% files, which allows single or multiple files to be selected.
 
 % The input parameters (Size, Dim_1, Dim_2) can be found from any of the 
 % '*.edf' files opened with 'Notepad'.
