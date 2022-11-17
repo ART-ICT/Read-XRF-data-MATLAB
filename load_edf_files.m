@@ -17,7 +17,7 @@ function data_cube=load_edf_files(Size, Dim_1, Dim_2)
 
 % This is in part of the EPSRC-funded ARTICT (Art Through the ICT Lens: Big
 % Data Processing Tools to Support the Technical Study, Preservation and
-% Conservation of Old Master Paintings​) project (EP/R032785/1). 
+% Conservation of Old Master Paintings) project (EP/R032785/1). 
 % More information: https://art-ict.github.io/artict/home.html
 
 % Relevent papers:
