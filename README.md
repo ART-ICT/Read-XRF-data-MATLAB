@@ -1,6 +1,10 @@
 # Read-XRF-data-MATLAB
-
 This is the code of MATLAB functions for reading the data collected with XRF devices (such as Bruker M6 JETSTREAM), including '*.raw' and '*.edf' files.
 
 This is in part of the EPSRC-funded ARTICT "Art Through the ICT Lens: Big Data Processing Tools to Support the Technical Study, Preservation and Conservation of Old Master Paintings" project (EP/R032785/1). 
 More information: https://art-ict.github.io/artict/home.html
+
+# Relevent papers
+[1] S. Yan, J. -J. Huang, N. Daly, C. Higgitt and P. L. Dragotti, "When de Prony Met Leonardo: An Automatic Algorithm for Chemical Element Extraction From Macro X-Ray Fluorescence Data," in IEEE Transactions on Computational Imaging, vol. 7, pp. 908-924, 2021, [doi: 10.1109/TCI.2021.3102820](https://ieeexplore.ieee.org/document/9511278).
+
+[2] S. Yan, J. Huang, N. Daly, C. Higgitt and P. L. Dragotti, "Revealing Hidden Drawings in Leonardo’s ‘the Virgin of the Rocks’ from Macro X-Ray Fluorescence Scanning Data through Element Line Localisation," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 1444-1448, [doi: 10.1109/ICASSP40776.2020.9054460](https://ieeexplore.ieee.org/document/9054460).
