@@ -13,7 +13,7 @@ More information: https://art-ict.github.io/artict/home.html
 # How to start
 Simply download the code script you need and call it as a function in MATLAB.
 
-**'load_raw_file.m'** reads the **'\*.raw'** files output from XRF devices (such as Bruker M6 JETSTREAM), whose input parameters (width, height, depth) can be found from the **'\*.rpl'** file opened with 'Notepad'.<br />
+[**'load_raw_file.m'**](https://github.com/Su828/Read-XRF-data-MATLAB/blob/main/load_edf_files.m) reads the **'\*.raw'** files output from XRF devices (such as Bruker M6 JETSTREAM), whose input parameters (width, height, depth) can be found from the **'\*.rpl'** file opened with 'Notepad'.<br />
 &nbsp;&nbsp;&nbsp;&nbsp; For example: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width = 534;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height = 539;<br />
