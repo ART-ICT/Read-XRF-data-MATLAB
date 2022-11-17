@@ -13,13 +13,13 @@ More information: https://art-ict.github.io/artict/home.html
 # How to start
 Simply download the code script you need and call it as a function in MATLAB.
 
-For **'load_raw_file.m'**, the input parameters (width, height, depth) can be found from the **'\*.rpl'** file opened with 'Notepad'.<br />
+**'load_raw_file.m'** reads the **'\*.raw'** files output from XRF devices (such as Bruker M6 JETSTREAM), whose input parameters (width, height, depth) can be found from the **'\*.rpl'** file opened with 'Notepad'.<br />
 &nbsp;&nbsp;&nbsp;&nbsp; For example: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width = 534;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height = 539;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; depth = 4096;<br />
 
-For **'load_edf_files.m'**, the input parameters (Size, Dim_1, Dim_2) can be found from any of the **'\*.edf'** files opened with 'Notepad'.<br />
+**'load_edf_files.m'** reads the **'\*.edf'** files created by 'DataMuncher' software, whose input parameters (Size, Dim_1, Dim_2) can be found from any of the **'\*.edf'** files opened with 'Notepad'.<br />
 &nbsp;&nbsp;&nbsp;&nbsp; For example: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Size=5697536;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dim_1=4096;<br />
