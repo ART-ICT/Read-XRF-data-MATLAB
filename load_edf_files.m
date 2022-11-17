@@ -43,7 +43,7 @@ if iscell(load_file_name)
         fileID  = fopen([load_path, load_file_name{i}],'r');
         data_cube_slice = fread(fileID);
         data_cube_slice=reshape(data_cube_slice(end-Size+1:end),[Dim_1,Dim_2]);
-        data_cube(:,:,i)=data_cube_slice; 
+        data_cube(:,:,i)=data_cube_slice;
         fclose(fileID);
     end
 else
