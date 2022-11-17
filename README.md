@@ -14,10 +14,10 @@ More information: https://art-ict.github.io/artict/home.html
 Simply download the code script you need and call it as a function in MATLAB.
 
 For **'load_raw_file.m'**, the input parameters (width, height, depth) can be found from the '*.rpl' file opened with 'Notepad'.<br />
->For example: <br />
-       width = 534;<br />
-       height = 539;<br />
-       depth = 4096;<br />
+> For example: <br />
+>> width = 534;<br />
+>> height = 539;<br />
+>> depth = 4096;<br />
 
 For **'load_raw_file.m'**, the input parameters (Size, Dim_1, Dim_2) can be found from any of the '*.edf' files opened with 'Notepad'.<br />
    For example: <br />
