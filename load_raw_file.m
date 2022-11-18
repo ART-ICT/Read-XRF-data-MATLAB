@@ -40,4 +40,4 @@ function data_cube=load_raw_file(width, height, depth)
 fileID  = fopen([load_path, open_file_name],'r');
 data_cube = fread(fileID, [depth,width*height], 'uint8');
 fclose(fileID);
-data_cube=reshape(data_cube,[channel_num,column_num,row_num]);
+data_cube=reshape(data_cube,[depth,width,height]);
